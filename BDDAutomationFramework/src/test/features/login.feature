@@ -15,8 +15,7 @@ Feature:Login
     When I click sign in button
     Then I should be re-directed to profile page
     Examples:
-      | email               | password |
-      | yo12india@gmail.com | G@ttu@12 |
+
 
   @login
   Scenario Outline: Validate login with invalid email and password
