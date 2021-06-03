@@ -4,3 +4,4 @@ Feature: basket
 
   Background:
     Given I'm on Home Page
+    When I click login button
